@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,49 @@
         <title>Franzen Irony University</title>
         
         <!-- Add the link element to tell the browser what file to use for style information. -->
-    
+  @font-face {
+font-family:Josefinslab;
+src: url(../fonts/josefinslab-regular.tff) format('truetype');
+font-style:normal;
+font-weight:normal;
+}
+@font-face {
+font-family:Monsterrat;
+src: url(../fonts/monsterrat-regular.tff) format('truetype');
+font-style:normal;
+font-weight:normal;
+
+Next, I am not sure what I am missing in the code that is not allowing the font to appear. Here is my other code:
+
+html {
+font-family: 'Monsterrat', sans-serif;
+
+}
+h1 {
+letter-spacing: .125rem;
+font-family: 'Josefinslab', serif;
+font-weight:normal;
+font-style:normal;
+font-size: 3.75rem;
+margin: 1.125rem;
+text-align: center;
+}
+
+h2 {
+letter-spacing: .125rem;
+font-family: 'Josefinslab', serif;
+font-weight:normal;
+font-style:normal;
+font-size: 1.5rem;
     </head>
     <body>
         <header>
             
-            @font-face {
-            
-            font-family:Coolfont;
-            src: url(fonts/coolfont-regular.ttf) format('truetype');
-            font-weight:normal;
-            font-style:normal;
+   
             
             }
             <h1>Franzen Irony University</h1>
-            {
-                font-family: Coolfont, Arial, sans-serif;
-                }
+          
         </header>
         <nav>
             <a href="#">Bespoke </a>
