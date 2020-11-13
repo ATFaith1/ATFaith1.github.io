@@ -47,5 +47,17 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+body {
+    background-color: dodgerblue;
+}
 
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
