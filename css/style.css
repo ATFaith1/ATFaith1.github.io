@@ -67,3 +67,16 @@ img {
     font-family:serif;
     font-size:44px;
 }
+
+.navbar a{
+    float:left;
+    width:100px;
+    display:block;
+    color:blueviolet;
+    text-align:center;
+    padding:20px 15px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    border-bottom:5px solid transparent;
+}
