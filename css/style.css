@@ -72,13 +72,14 @@ img {
     float:left;
     width:100px;
     display:block;
-    color:darkblue
+    color:darkblue;
     text-align:center;
     padding:20px 15px;
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
-    border-bottom:5px solid;
+    border-bottom:2px solid;
+    border-top: 2px solid;
 }
 h1{
     width: 500px;
