@@ -69,7 +69,7 @@ img {
 }
 
 .navbar a{
-   
+    float:left;
     width:100px;
     display:block;
     color:darkblue;
