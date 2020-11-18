@@ -96,5 +96,6 @@ h1{
 }
 
 header{
-    -webkit-transform: rotate(1deg);
+    -webkit-transform: rotate(2deg);
+    font-family:sans-serif;
 }
