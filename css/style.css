@@ -48,7 +48,7 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 body {
-    background-color: dodgerblue;
+    background-color: white;
 }
 
 img {
@@ -87,3 +87,11 @@ h1{
     background: white;
     text-align: center;
 }
+
+.partition{
+    float: right;
+    display: block;
+    color: black;
+    border-bottom:2px solid;
+}
+
